@@ -1,10 +1,12 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakob-beetz/ifcopenshell-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjakob-beetz%252Fifcopenshell-notebooks%26urlpath%3Dlab%252Ftree%252Fifcopenshell-notebooks%252F00_introduction.ipynb%26branch%3Dmain)
+[![screenshot of jupyter=notebook](img/screenshot-ifc-notebook.png)]
+
 
 # ifcopenshell-notebooks
-Interactive Jupyter Notebooks to teach working with IFC files using ifcopenshell
+Interactive Jupyter Notebooks to teach working with IFC files using ifcopenshell with python
 
-To run the notebooks interactively, click the binder link below, a few seconds patience and you will be able to enjoy:
+To run the notebooks interactively, click the binder link above, a few seconds patience and you will be able to enjoy:
 - Integrated IFC Viewer with bidirectional ability to 
   - select from script, get selection from mouse to script
   - see attributes of building element instances 
