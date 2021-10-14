@@ -14,8 +14,10 @@ To run the notebooks interactively, click the binder link above, a few seconds p
   - see attributes of building element instances 
   - set visibility, colors and transparancy from script
 - display model structure using GraphViz Dot
-- Browse IFC 2x3 and IFC 4 documentation right in your notebook `IfcHelp.getHelp3("IfcDoor")`
-- use pandas, numpy etc. to do calculations on models 
+![dot vizualization](img/ifc-graph-plot.png)
+- Browse IFC 2x3 and IFC 4 documentation right in your notebook `IfcHelp.getHelp3("IfcDoor")` 
+![documentation in browser](img/ifchelp-example-ifcdoor.png)
+- use pandas, numpy etc. to do calculations on models
 - reach through to the powerfull OpenCascadeKernel
 
 If you like the work, please
