@@ -26,4 +26,4 @@ If you like the work, please
 - write s.th. into the forum, add a pull request
 - help improve it!
 - come to RWTH to study with us!
-
+- more ideas are welcome
