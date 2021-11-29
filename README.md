@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/383424760.svg)](https://zenodo.org/badge/latestdoi/383424760)
+
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakob-beetz/ifcopenshell-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjakob-beetz%252Fifcopenshell-notebooks%26urlpath%3Dlab%252Ftree%252Fifcopenshell-notebooks%252F00_introduction.ipynb%26branch%3Dmain)
 
@@ -21,7 +23,7 @@ To run the notebooks interactively, click the binder link above, a few seconds p
 - reach through to the powerfull OpenCascadeKernel
 
 If you like the work, please
-- cite it
+- cite it, please use this DOI [![DOI](https://zenodo.org/badge/383424760.svg)](https://zenodo.org/badge/latestdoi/383424760)
 - sponsor [aothms](https://github.com/aothms) and [tpaviot](https://github.com/tpaviot/) whose great work this is based upon
 - write s.th. into the forum, add a pull request
 - help improve it!
