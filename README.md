@@ -7,13 +7,13 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakob-beetz/ifcopenshell-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fjakob-beetz%252Fifcopenshell-notebooks%26urlpath%3Dlab%252Ftree%252Fifcopenshell-notebooks%252F00_introduction.ipynb%26branch%3Dmain)
 
 
-![screenshot of jupyter=notebook](img/screenshot-ifc-notebook.png | width=100)
+![screenshot of jupyter=notebook](img/screenshot-ifc-notebook.png)
 
 
 # ifcopenshell-notebooks
 Interactive Jupyter Notebooks to teach working with IFC files using ifcopenshell with python.
 
-These Notebooks are part of mandatory classes for Bachelor students of [Architecture at the RWTH Aachen University](https://arch.rwth-aachen.de/go/id/gfa/) and have advanced versions for MSc levels. 
+These Notebooks are part of mandatory classes for Bachelor students of [Architecture at the RWTH Aachen University](https://arch.rwth-aachen.de/go/id/gfa/) and have advanced versions for MSc levels. The notebooks usually run on the [Jupyter Hub of the RWTH Aachen](https://jupyter.rwth-aachen.de) but can be run on other Jupyter Notebook VMs.
 They are published ass [Open Educational Resources](https://en.unesco.org/themes/building-knowledge-societies/oer) 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Global_Open_Educational_Resources_Logo.svg" width="200"/>
