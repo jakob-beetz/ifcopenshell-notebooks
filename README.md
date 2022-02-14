@@ -13,8 +13,8 @@
 # ifcopenshell-notebooks
 Interactive Jupyter Notebooks to teach working with IFC files using ifcopenshell with python.
 
-These Notebooks are part of mandatory classes for Bachelor students of Architecture at the RWTH Aachen University and have advanced versions for MSc levels. 
-They are published ass Open Educational Resources 
+These Notebooks are part of mandatory classes for Bachelor students of [Architecture at the RWTH Aachen University](https://arch.rwth-aachen.de/go/id/gfa/) and have advanced versions for MSc levels. 
+They are published ass [Open Educational Resources](https://en.unesco.org/themes/building-knowledge-societies/oer) 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Global_Open_Educational_Resources_Logo.svg" width="200"/>
 
