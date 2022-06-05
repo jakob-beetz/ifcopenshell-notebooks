@@ -1,0 +1,168 @@
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix beo:      <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot:      <https://w3id.org/bot#> .
+@prefix furn:     <http://pi.pauwel.be/voc/furniture#> .
+@prefix geo:      <http://www.opengis.net/ont/geosparql#> .
+@prefix ifc:      <https://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#> .
+@prefix inst:     <https://www.ugent.be/myAwesomeFirstBIMProject#> .
+@prefix lbd:      <https://linkebuildingdata.org/LBD#> .
+@prefix mep:      <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix opm:      <https://w3id.org/opm#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix props:    <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:   <http://schema.org/> .
+@prefix seas:     <https://w3id.org/seas/> .
+@prefix smls:     <https://w3id.org/def/smls-owl#> .
+@prefix unit:     <http://qudt.org/vocab/unit/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+inst:descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+
+inst:nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+
+inst:globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569 .
+
+inst:building_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+        rdf:type                  bot:Building ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52 ;
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52 ;
+        props:nameIfcRoot         inst:nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52 .
+
+inst:state_refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "0."^^xsd:double ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5689011" ;
+        smls:unit             unit:MilliM .
+
+<urn:bot:geom:pt:f55eaf97-145e-4431-b2f3-69f9634f244b>
+        geo:asWKT  "POINT (-71.32426330587.81399997.9999 42.213118194541.522784000041.5227840000)"^^geo:wktLiteral .
+
+inst:state_nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "Reiff Museum" ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5698998" .
+
+inst:nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569 .
+
+inst:state_nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "Reiff, Aachen, RWTH" ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5689011" .
+
+inst:refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+
+inst:site_f55eaf97-145e-4431-b2f3-69f9634f244b
+        rdf:type                   bot:Site , geo:Feature ;
+        props:descriptionIfcRoot   inst:descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b ;
+        props:nameIfcRoot          inst:nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b ;
+        props:refElevationIfcSite  inst:refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b ;
+        geo:hasGeometry            <urn:bot:geom:pt:f55eaf97-145e-4431-b2f3-69f9634f244b> ;
+        bot:hasBuilding            inst:building_3ca7e585-4e3e-4969-a86f-f049f4fbde52 .
+
+inst:state_globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "0yf_M5JZv9QQXly4dq_zvI" ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5698998" .
+
+inst:state_globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "3rNg_N55v4CRBpQVbZJoHB" ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5689011" .
+
+inst:descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569 .
+
+inst:state_descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "RWTH Department of Architecture" ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5698998" .
+
+inst:globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b
+        rdf:type              opm:Property ;
+        opm:hasPropertyState  inst:state_globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+
+inst:state_descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+        rdf:type              opm:CurrentPropertyState ;
+        schema:value          "The Reiff Museum Building at RWTH Aachen" ;
+        prov:generatedAtTime  "2022-06-05T15:57:46.5689011" .
+
+inst:property {
+    inst:descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+    
+    inst:nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+    
+    inst:globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569 .
+    
+    inst:state_refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "0."^^xsd:double ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5689011" ;
+            smls:unit             unit:MilliM .
+    
+    inst:state_nameIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "Reiff, Aachen, RWTH" ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5689011" .
+    
+    inst:nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569 .
+    
+    inst:state_nameIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "Reiff Museum" ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5698998" .
+    
+    inst:refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_refElevationIfcSite_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+    
+    inst:state_globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "3rNg_N55v4CRBpQVbZJoHB" ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5689011" .
+    
+    inst:state_globalIdIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "0yf_M5JZv9QQXly4dq_zvI" ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5698998" .
+    
+    inst:descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569 .
+    
+    inst:state_descriptionIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "The Reiff Museum Building at RWTH Aachen" ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5689011" .
+    
+    inst:globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b
+            rdf:type              opm:Property ;
+            opm:hasPropertyState  inst:state_globalIdIfcRoot_f55eaf97-145e-4431-b2f3-69f9634f244b_1654437466568 .
+    
+    inst:state_descriptionIfcRoot_3ca7e585-4e3e-4969-a86f-f049f4fbde52_1654437466569
+            rdf:type              opm:CurrentPropertyState ;
+            schema:value          "RWTH Department of Architecture" ;
+            prov:generatedAtTime  "2022-06-05T15:57:46.5698998" .
+}
