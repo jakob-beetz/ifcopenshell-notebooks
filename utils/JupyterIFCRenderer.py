@@ -96,11 +96,15 @@ class JupyterIFCRenderer(JupyterRenderer):
         
         self._sectionXSlider = FloatSlider(name = "section plane X", layout=Layout(width='200px'), min=self._bb.ymin-1, max=self._bb.ymax+1, value=self._bb.ymax+1,step=0.1)
         self._sectionXSlider.observe(self._sectionPlaneX, "value")
-        self._controls.append(self._sectionXSlider)
+        self._sectionXSliderW = widgets.HBox([widgets.Label(value="X section"),self._sectionXSlider])
+        self._controls.append(self._sectionXSliderW)
 
         self._sectionZSlider = FloatSlider(name = "section plane Z", layout=Layout(width='200px'), min=self._bb.zmin-1, max=self._bb.zmax+1, value=self._bb.zmax+1,step=0.1)
         self._sectionZSlider.observe(self._sectionPlaneZ, "value")
-        self._controls.append(self._sectionZSlider)
+        self._sectionZSliderW = widgets.HBox([widgets.Label(value="Z section"), self._sectionZSlider])
+        self._controls.append(self._sectionZSliderW)
+    
+        self._controls = (widgets.VBox(children=self._controls[:3]),widgets.VBox(children=self._controls[3:6]),widgets.VBox(children=self._controls[6:]))
         
     def ifc_element_click(self, value):
         # ("element click")
@@ -124,7 +128,7 @@ class JupyterIFCRenderer(JupyterRenderer):
         # for shp in self._current_shape_selection:
         shp = self._current_shape_selection
         # print(self._current_shape_selection.colors)
-        print(self._current_mesh_selection.material.color)
+        #print(self._current_mesh_selection.material.color)
         self._current_mesh_selection.material.color = color
         # self.DisplayShape(shp, shape_color = format_color(*color), transparency=False, opacity=0.5)
 
@@ -146,10 +150,11 @@ class JupyterIFCRenderer(JupyterRenderer):
             self.DisplayShape(p, shape_color = c)
             
     def setColorProduct(self, product, color):
+        
         mesh = self._meshdict.get(product, None)
         if mesh:
             mesh.material.color = color
-                
+        
 #         for shp in self._displayed_pickable_objects.children:
             # if self.elementdict[product]
             # print (f"Shape: {shp} \t\t\t\t {product}" )
@@ -228,14 +233,22 @@ class JupyterIFCRenderer(JupyterRenderer):
     
     def setDefaultColors(self):
         for p,m  in self._meshdict.items():
-            if p.is_a() in self.COLOR_MAPPINGS.keys():
-                print(f"{p.Name}, {p.is_a()} \t\t\t  {self.DEFAULT_COLORS.get(self.COLOR_MAPPINGS.get(p.is_a()))}")
-                m.material.color = self.DEFAULT_COLORS.get(self.COLOR_MAPPINGS.get(p.is_a()),"#333333")
+            if p.is_a() in self._COLOR_MAPPINGS.keys():
+                #print(f"{p.Name}, {p.is_a()} \t\t\t  {self.DEFAULT_COLORS.get(self.COLOR_MAPPINGS.get(p.is_a()))}")
+                m.material.color = self._DEFAULT_COLORS.get(self._COLOR_MAPPINGS.get(p.is_a()),"#333333")
             else:
                 m.material.color = "#AAAAAA"
                                                     
-
-    DEFAULT_COLORS = {
+    def colorPicker(self):
+        return widgets.ColorPicker(
+            concise=False,
+            description='Pick a color',
+            value='blue',
+            disabled=False
+        )
+        
+        
+    _DEFAULT_COLORS = {
         'dark-electric-blue': '#527589',
         'little-boy-blue' : '#64a1ec',
         'black-coral' : '#525e71',
@@ -249,7 +262,7 @@ class JupyterIFCRenderer(JupyterRenderer):
         'prussian-blue' : '#1d3557',
         'Khaki Web' : '#C6AC8F'
     }
-    COLOR_MAPPINGS = {
+    _COLOR_MAPPINGS = {
         'IfcWall' : 'pale-silver',
         'IfcWallStandardCase' : 'pale-silver',
         'IfcWindow' : 'celdon-blue',
