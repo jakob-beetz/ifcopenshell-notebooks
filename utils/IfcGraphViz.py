@@ -36,8 +36,11 @@ class IfcGraphViz:
         self.nx_graph.add_node(entity_instance.id())
         # extract entity attributes
         entity_attributes = entity_instance.get_info()
+
         # remove p21 id as it is used as the node identifier and not inside the attributes of a node
         del entity_attributes["id"]
+        node_attributes = {}
+
         # loop over attributes and traverse
         if forward >= 0:
             for attr, val in entity_attributes.items():
@@ -51,10 +54,11 @@ class IfcGraphViz:
                     if len(val) == 0:
                         self.graph = self.build_nx_graph(model, val[0], forward=forward - 1)
                         self.graph.edge(str(entity_instance.id()), str(val[0].id()), label=attr)
+                else:
+                    node_attributes[attr] = val
 
         # finally set node attributes
-        node_attributes = {entity_instance.id(): entity_attributes}
-        nx.set_node_attributes(self.nx_graph, node_attributes)
+        nx.set_node_attributes(self.nx_graph, {entity_instance.id(): node_attributes})
 
         return self.nx_graph
 
