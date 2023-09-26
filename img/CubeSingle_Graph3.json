@@ -1,0 +1,766 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": 1151.8370072016762,
+        "y": 195.74276229573906
+      },
+      "caption": "21",
+      "labels": [],
+      "properties": {
+        "GlobalId": "3FNv6N_ur0zQ8tygS1XDuH",
+        "Name": "Site",
+        "Description": "Site Container for Elements",
+        "EntityType": "IfcRelContainedInSpatialStructure"
+      },
+      "style": {
+        "border-color": "#68bc00",
+        "radius": 25,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 745.5170734139723,
+        "y": 195.74276229573906
+      },
+      "caption": "20",
+      "labels": [],
+      "properties": {
+        "GlobalId": "3xn$Io5tr8TOYxqxH15Rkg",
+        "Name": "Cuboid1",
+        "EntityType": "IfcBuildingElementProxy"
+      },
+      "style": {
+        "border-color": "#0062b1",
+        "radius": 25,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 894.3240092901058,
+        "y": 344.5496981718726
+      },
+      "caption": "19",
+      "labels": [],
+      "properties": {
+        "EntityType": "IfcLocalPlacement"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 937.4696984692538,
+        "y": 493.22489683594534
+      },
+      "caption": "18",
+      "labels": [],
+      "properties": {
+        "EntityType": "IfcAxis2Placement3D"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 1109.145030410301,
+        "y": 493.22489683594523
+      },
+      "caption": "17",
+      "labels": [],
+      "properties": {
+        "Coordinates": "(2.0, 5.0, 1.0)",
+        "EntityType": "IfcCartesianPoint"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 596.7101375378389,
+        "y": 344.5496981718726
+      },
+      "caption": "16",
+      "labels": [],
+      "properties": {
+        "EntityType": "IfcProductDefinitionShape"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 596.7101375378389,
+        "y": 641.9000955000181
+      },
+      "caption": "15",
+      "labels": [],
+      "properties": {
+        "RepresentationIdentifier": "Body",
+        "RepresentationType": "SweptSolid",
+        "EntityType": "IfcShapeRepresentation"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 596.7101375378389,
+        "y": 796.6309872306635
+      },
+      "caption": "14",
+      "labels": [],
+      "properties": {
+        "ContextIdentifier": "Body",
+        "ContextType": "Model",
+        "TargetView": "MODEL_VIEW",
+        "EntityType": "IfcGeometricRepresentationSubContext"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center",
+        "outside-position": "right"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 683.1035207287729,
+        "y": 958.8397306964501
+      },
+      "caption": "13",
+      "labels": [],
+      "properties": {
+        "DirectionRatios": "(0.0, 1.0)",
+        "EntityType": "IfcDirection"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 683.1035207287729,
+        "y": 1063.9923355431988
+      },
+      "caption": "12",
+      "labels": [],
+      "properties": {
+        "EntityType": "IfcAxis2Placement3D"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 869.7814613788815,
+        "y": 1063.9923355431988
+      },
+      "caption": "11",
+      "labels": [],
+      "properties": {
+        "Coordinates": "(0.0, 0.0, 0.0)",
+        "EntityType": "IfcCartesianPoint"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 290.1982170055819,
+        "y": 1063.9923355431988
+      },
+      "caption": "10",
+      "labels": [],
+      "properties": {
+        "ContextType": "Model",
+        "CoordinateSpaceDimension": 3,
+        "Precision": 0.0001,
+        "EntityType": "IfcGeometricRepresentationContext"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center",
+        "outside-position": "bottom"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 1379.000888651725,
+        "y": 841.7306705306316
+      },
+      "caption": "9",
+      "labels": [],
+      "properties": {
+        "DirectionRatios": "(0.0, 0.0, 1.0)",
+        "EntityType": "IfcDirection"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 1102.6661386222252,
+        "y": 641.9000955000181
+      },
+      "caption": "8",
+      "labels": [],
+      "properties": {
+        "Depth": 1.35,
+        "EntityType": "IfcExtrudedAreaSolid"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 1102.6661386222252,
+        "y": 841.7306705306316
+      },
+      "caption": "7",
+      "labels": [],
+      "properties": {
+        "ProfileType": "AREA",
+        "ProfileName": "rectangleProfileDef",
+        "XDim": 4,
+        "YDim": 6,
+        "EntityType": "IfcRectangleProfileDef"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": 745.5170734139723,
+        "y": 50
+      },
+      "caption": "6",
+      "labels": [],
+      "properties": {
+        "GlobalId": "1U7z3bi0N_4L0UNA$m7S6j",
+        "EntityType": "IfcRelAggregates"
+      },
+      "style": {
+        "border-color": "#68bc00",
+        "radius": 25,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": 290.1982170055819,
+        "y": 50
+      },
+      "caption": "5",
+      "labels": [],
+      "properties": {
+        "GlobalId": "2KrDsiaI1FkRwWUa5EvoNK",
+        "Name": "GeomRep",
+        "EntityType": "IfcProject"
+      },
+      "style": {
+        "border-color": "#0062b1",
+        "radius": 25,
+        "property-alignment": "center",
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": 1379.000888651725,
+        "y": 50
+      },
+      "caption": "4",
+      "labels": [],
+      "properties": {
+        "GlobalId": "2gG1du9OH4eQ4omNt$zfn1",
+        "Name": "site",
+        "EntityType": "IfcSite"
+      },
+      "style": {
+        "border-color": "#0062b1",
+        "radius": 25,
+        "property-alignment": "center",
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": 1379.000888651725,
+        "y": 344.5496981718726
+      },
+      "caption": "3",
+      "labels": [],
+      "properties": {
+        "EntityType": "IfcLocalPlacement"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": 1379.000888651725,
+        "y": 493.22489683594534
+      },
+      "caption": "2",
+      "labels": [],
+      "properties": {
+        "EntityType": "IfcAxis2Placement3D"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 1379.000888651725,
+        "y": 641.9000955000181
+      },
+      "caption": "1",
+      "labels": [],
+      "properties": {
+        "Coordinates": "(0.0, 0.0, 0.0)",
+        "EntityType": "IfcCartesianPoint"
+      },
+      "style": {
+        "border-color": "#fcc400",
+        "radius": 20,
+        "property-alignment": "center"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "fromId": "n0",
+      "toId": "n17",
+      "type": "RelatingStructure",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n1",
+      "fromId": "n0",
+      "toId": "n1",
+      "type": "RelatedElements",
+      "properties": {
+        "listItem": "0"
+      },
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n2",
+      "fromId": "n1",
+      "toId": "n2",
+      "type": "ObjectPlacement",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n3",
+      "fromId": "n1",
+      "toId": "n5",
+      "type": "Representation",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n4",
+      "fromId": "n2",
+      "toId": "n18",
+      "type": "PlacementRelTo",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n5",
+      "fromId": "n2",
+      "toId": "n3",
+      "type": "RelativePlacement",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n6",
+      "fromId": "n3",
+      "toId": "n4",
+      "type": "Location",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n7",
+      "fromId": "n5",
+      "toId": "n6",
+      "type": "Representations",
+      "properties": {
+        "listItem": "0"
+      },
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n6",
+      "toId": "n7",
+      "type": "ContextOfItems",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n9",
+      "fromId": "n6",
+      "toId": "n13",
+      "type": "Items",
+      "properties": {
+        "listItem": "0"
+      },
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n10",
+      "fromId": "n7",
+      "toId": "n11",
+      "type": "ParentContext",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n11",
+      "fromId": "n9",
+      "toId": "n10",
+      "type": "Location",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n12",
+      "fromId": "n11",
+      "toId": "n9",
+      "type": "WorldCoordinateSystem",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n13",
+      "fromId": "n11",
+      "toId": "n8",
+      "type": "TrueNorth",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n14",
+      "fromId": "n13",
+      "toId": "n14",
+      "type": "SweptArea",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n15",
+      "fromId": "n13",
+      "toId": "n12",
+      "type": "ExtrudedDirection",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n16",
+      "fromId": "n15",
+      "toId": "n16",
+      "type": "RelatingObject",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n17",
+      "fromId": "n15",
+      "toId": "n17",
+      "type": "RelatedObjects",
+      "properties": {
+        "listItem": "0"
+      },
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n18",
+      "fromId": "n16",
+      "toId": "n11",
+      "type": "RepresentationContexts",
+      "properties": {
+        "listItem": "0"
+      },
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n19",
+      "fromId": "n17",
+      "toId": "n18",
+      "type": "ObjectPlacement",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n20",
+      "fromId": "n18",
+      "toId": "n19",
+      "type": "RelativePlacement",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    },
+    {
+      "id": "n21",
+      "fromId": "n19",
+      "toId": "n20",
+      "type": "Location",
+      "properties": {},
+      "style": {
+        "type-background-color": "#cccccc",
+        "type-border-color": "#4d4d4d",
+        "type-border-width": 1,
+        "arrow-width": 4,
+        "detail-orientation": "horizontal"
+      }
+    }
+  ]
+}
