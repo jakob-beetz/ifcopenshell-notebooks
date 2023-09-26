@@ -1,3 +1,4 @@
 ifcopenshell
 networkx
 graphviz
+jsonpickle
